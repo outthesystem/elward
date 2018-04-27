@@ -1,0 +1,32 @@
+{
+  "short_name": "elmatecultural",
+  "name": "la agenda cultural",
+  "display": "standalone",
+  "scope": "https://elmatecultural.com/",
+  "start_url": "/",
+  "orientation": "portrait",
+  "theme_color": "#76F498",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+     "src": "frontend/img/favicon48.png",
+     "type": "image/png",
+     "sizes": "48x48"
+   },
+   {
+     "src": "frontend/img/favicon92.png",
+     "type": "image/png",
+     "sizes": "96x96"
+   },
+    {
+      "src": "frontend/img/favicon148.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+   {
+     "src": "frontend/img/favicon192.png",
+     "type": "image/png",
+     "sizes": "192x192"
+   }
+  ]
+}
