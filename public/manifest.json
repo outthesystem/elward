@@ -2,7 +2,7 @@
   "short_name": "el ward oficial",
   "name": "noticias de ultima hora de league of legends",
   "display": "standalone",
-  "scope": "https://elmatecultural.com/",
+  "scope": "http://elwardoficial.com/",
   "start_url": "/",
   "orientation": "portrait",
   "theme_color": "#76F498",
