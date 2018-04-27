@@ -1,6 +1,6 @@
 {
-  "short_name": "elmatecultural",
-  "name": "la agenda cultural",
+  "short_name": "el ward oficial",
+  "name": "noticias de ultima hora de league of legends",
   "display": "standalone",
   "scope": "https://elmatecultural.com/",
   "start_url": "/",
@@ -14,12 +14,12 @@
      "sizes": "48x48"
    },
    {
-     "src": "frontend/img/favicon92.png",
+     "src": "frontend/img/favicon96.png",
      "type": "image/png",
      "sizes": "96x96"
    },
     {
-      "src": "frontend/img/favicon148.png",
+      "src": "frontend/img/favicon144.png",
       "type": "image/png",
       "sizes": "144x144"
     },

@@ -300,14 +300,14 @@ pace.start();
 
 
 												<li>
-													<a href="https://www.facebook.com/compartimoscultura/" class="btn btn-just-icon btn-simple btn-facebook">
+													<a href="https://www.facebook.com/El-Ward-1912841569026994" class="btn btn-just-icon btn-simple btn-facebook">
 														<i class="fab fa-facebook"></i>
 													</a>
 												</li>
 		            			</ul>
 
 		            			<div class="copyright pull-center" style="margin-top:-25px;">
-												<h5 style="font-family: 'Open Sans', sans-serif;">hola@elmatecultural.com</h5>
+												<h5 style="font-family: 'Open Sans', sans-serif;">cuenta.elwardoficial@gmail.com</h5>
 
 		            			</div>
 		            		</div>
