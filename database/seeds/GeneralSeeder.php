@@ -14,7 +14,7 @@ class GeneralSeeder extends Seeder
     {
       DB::table('users')->insert([
           'name' => 'admin',
-          'email' => 'hola@elmatecultural.com',
+          'email' => 'cuenta.elwardoficial@gmail.com',
           'password' => bcrypt('123456'),
       ]);
       DB::table('roles')->insert([

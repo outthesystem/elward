@@ -70,10 +70,10 @@ class FrontendController extends Controller
         $objDemo = new \stdClass();
         $objDemo->demo_one = $post->title;
         $objDemo->demo_two = $post->email;
-        $objDemo->sender = 'la agenda cultural';
-        $objDemo->receiver = 'Mauro';
+        $objDemo->sender = 'el ward oficial';
+        $objDemo->receiver = 'alberto';
 
-        Mail::to("hola@elmatecultural.com")->send(new DemoEmail($objDemo));
+        Mail::to("cuenta.elwardoficial@gmail.com")->send(new DemoEmail($objDemo));
 
         return redirect('/');
   }
