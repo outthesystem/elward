@@ -9,7 +9,7 @@
 	<title>El Ward Oficial</title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-<link rel="manifest" href="{{asset('public/manifest.json')}}">
+<link rel="manifest" href="{{asset('manifest.json')}}">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="{{asset('frontend/img/favicon148.png')}}">
 <meta name="theme-color" content="#ffffff">
