@@ -6,7 +6,7 @@
 	<link rel="icon" type="image/png" href="{{asset('frontend/img/favicon.png')}}">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-	<title>el ward - {{$post->title}}</title>
+	<title>El Ward Oficial - {{$post->title}}</title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
@@ -123,13 +123,13 @@
 
 				<ul class="pull-center">
 
-					<a href="https://www.facebook.com/compartimoscultura/" target="_blank" class="btn btn-just-icon btn-facebook btn-simple"
+					<a href="https://www.facebook.com/El-Ward-1912841569026994" target="_blank" class="btn btn-just-icon btn-facebook btn-simple"
 					style="margin-bottom:-15px;">
 						<i class="fa fa-facebook-square"></i>
 					</a>
 					<br>
 
-						<a class="footer-brand" href="#">	hola@elmatecultural.com</a>
+						<a class="footer-brand" href="#">	cuenta.elwardoficial@gmail.com</a>
 
 
 					<ul class="social-buttons pull-right">
