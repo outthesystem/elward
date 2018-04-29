@@ -83,7 +83,7 @@
 								</div>
 							</div>
 						</nav>
-    <div class="page-header header-small">
+    <div class="page-header header-small" style="display:none">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center">
