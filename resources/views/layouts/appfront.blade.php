@@ -88,7 +88,7 @@
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<a href="https://www.facebook.com/El-Ward-1912841569026994" target="_blank">
-						<h1 class="title" style="margin-top:-10px;color:#FFA524;font-family: 'Open Sans', sans-serif;">el ward</h1>
+						<h1 class="title" style="margin-top:-10px;color:#FFA524;font-family: 'Open Sans', sans-serif;">El Ward Oficial</h1>
 					</a>
 						<h3 style="margin-top:-10px;color:#333333;font-family: 'Open Sans', sans-serif;">eventos y noticias de league of legends</h3>
 						<a data-toggle="modal" data-target="#posts" class="btn btn-success btn-raised btn-lg">
