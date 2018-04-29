@@ -83,30 +83,7 @@
 								</div>
 							</div>
 						</nav>
-    <div class="page-header header-small" style="display:none">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center">
-					<a href="https://www.facebook.com/El-Ward-1912841569026994" target="_blank">
-						<h1 class="title" style="margin-top:-10px;color:#FFA524;font-family: 'Open Sans', sans-serif;">El Ward Oficial</h1>
-					</a>
-						<h3 style="margin-top:-10px;color:#333333;font-family: 'Open Sans', sans-serif;">eventos y noticias de league of legends</h3>
-						<a data-toggle="modal" data-target="#posts" class="btn btn-success btn-raised btn-lg">
-						<i class="material-icons">add</i> Crea tu evento
-					<div class="ripple-container"></div></a>
-					@guest
-		        @else
-							@if (Auth::user()->getRoleNames() == 'admin')
-
-							@endif
-							<a href="{{url('posts')}}" class="btn btn-danger btn-raised btn-lg">
-							<i class="material-icons">account_box</i> ir a la administracion
-						<div class="ripple-container"></div></a>
-		      @endguest
-				</div>
-			</div>
-		</div>
-	</div>
+    
 		@if ($notes->count() == 0)
 			@else
 				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="10000" style="margin-top:-50px;">
