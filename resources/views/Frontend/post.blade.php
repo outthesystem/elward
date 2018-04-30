@@ -16,8 +16,8 @@
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
 
 	<!-- CSS Files -->
-    <link href="{{asset('frontend/css/bootstrap.min.css')}}" rel="stylesheet" />
-    <link href="{{asset('frontend/css/material-kit.css?v=1.2.1')}}" rel="stylesheet"/>
+    <link href="{{asset('public/frontend/css/bootstrap.min.css')}}" rel="stylesheet" />
+    <link href="{{asset('public/frontend/css/material-kit.css?v=1.2.1')}}" rel="stylesheet"/>
 </head>
 
 <body class="blog-post" style="background-color:white;font-family: 'Open Sans', sans-serif;">
