@@ -56,10 +56,10 @@
 								</div>
 							</div>
 							<div class="col-md-6">
-								<a href="{{ url('/share/'.$p->id) }}" class="btn btn-facebook btn-round pull-right">
+								<a href="{{ url('/share/'.$post->->id) }}" class="btn btn-facebook btn-round pull-right">
 									<i class="fa fa-facebook-square"></i>
 								</a>
-								<a href="https://api.whatsapp.com/send?text={{ url('/shares/'.$p->id) }}" class="btn btn-twitter btn-round pull-right">
+								<a href="https://api.whatsapp.com/send?text={{ url('/shares/'.$post->->id) }}" class="btn btn-twitter btn-round pull-right">
 									<i class="fab fa-whatsapp"></i>
 								</a>
 							</div>
