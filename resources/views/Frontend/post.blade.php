@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<link rel="apple-touch-icon" sizes="76x76" href="{{asset('public/frontend/img/apple-icon.png')}}">
-	<link rel="icon" type="image/png" href="{{asset('public/frontend/img/favicon.png')}}">
+	<link rel="apple-touch-icon" sizes="76x76" href="{{secure_secure_asset('public/frontend/img/apple-icon.png')}}">
+	<link rel="icon" type="image/png" href="{{secure_asset('public/frontend/img/favicon.png')}}">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 	<title>El Ward Oficial - {{$post->title}}</title>
@@ -16,8 +16,8 @@
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
 
 	<!-- CSS Files -->
-    <link href="{{asset('public/frontend/css/bootstrap.min.css')}}" rel="stylesheet" />
-    <link href="{{asset('public/frontend/css/material-kit.css?v=1.2.1')}}" rel="stylesheet"/>
+    <link href="{{secure_asset('public/frontend/css/bootstrap.min.css')}}" rel="stylesheet" />
+    <link href="{{secure_asset('public/frontend/css/material-kit.css?v=1.2.1')}}" rel="stylesheet"/>
 </head>
 
 <body class="blog-post" style="background-color:white;font-family: 'Open Sans', sans-serif;">
@@ -96,7 +96,7 @@
 														@if ($p->image)
 															<img class="img" style="height:330px;" src="{{$p->image}}">
 															@else
-																<img class="img" style="height:330px;" src="{{asset('public/frontend/img/image_placeholder.jpg')}}">
+																<img class="img" style="height:330px;" src="{{secure_asset('public/frontend/img/image_placeholder.jpg')}}">
 														@endif
 													</a>
 												</div>
@@ -149,31 +149,31 @@
 		</footer>
 </body>
 	<!--   Core JS Files   -->
-	<script src="{{asset('public/frontend/js/jquery.min.js')}}" type="text/javascript"></script>
-	<script src="{{asset('public/frontend/js/bootstrap.min.js')}}" type="text/javascript"></script>
-	<script src="{{asset('public/frontend/js/material.min.js')}}"></script>
+	<script src="{{secure_asset('public/frontend/js/jquery.min.js')}}" type="text/javascript"></script>
+	<script src="{{secure_asset('public/frontend/js/bootstrap.min.js')}}" type="text/javascript"></script>
+	<script src="{{secure_asset('public/frontend/js/material.min.js')}}"></script>
 
 	<!--    Plugin for Date Time Picker and Full Calendar Plugin   -->
-	<script src="{{asset('public/frontend/js/moment.min.js')}}"></script>
-	<script src="{{asset('public/frontend/js/es-us.js')}}"></script>
+	<script src="{{secure_asset('public/frontend/js/moment.min.js')}}"></script>
+	<script src="{{secure_asset('public/frontend/js/es-us.js')}}"></script>
 
 	<!--	Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/   -->
-	<script src="{{asset('public/frontend/js/nouislider.min.js')}}" type="text/javascript"></script>
+	<script src="{{secure_asset('public/frontend/js/nouislider.min.js')}}" type="text/javascript"></script>
 
 	<!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker   -->
-	<script src="{{asset('public/frontend/js/bootstrap-datetimepicker.js')}}" type="text/javascript"></script>
+	<script src="{{secure_asset('public/frontend/js/bootstrap-datetimepicker.js')}}" type="text/javascript"></script>
 
 	<!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select   -->
-	<script src="{{asset('public/frontend/js/bootstrap-selectpicker.js')}}" type="text/javascript"></script>
+	<script src="{{secure_asset('public/frontend/js/bootstrap-selectpicker.js')}}" type="text/javascript"></script>
 
 	<!--	Plugin for Tags, full documentation here: http://xoxco.com/projects/code/tagsinput/   -->
-	<script src="{{asset('public/frontend/js/bootstrap-tagsinput.js')}}"></script>
+	<script src="{{secure_asset('public/frontend/js/bootstrap-tagsinput.js')}}"></script>
 
 	<!--	Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput   -->
-	<script src="{{asset('public/frontend/js/jasny-bootstrap.min.js')}}"></script>
+	<script src="{{secure_asset('public/frontend/js/jasny-bootstrap.min.js')}}"></script>
 
 	<!--    Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc    -->
-	<script src="{{asset('public/frontend/js/material-kit.js?v=1.2.1')}}" type="text/javascript"></script>
+	<script src="{{secure_asset('public/frontend/js/material-kit.js?v=1.2.1')}}" type="text/javascript"></script>
 
 	{!! Notify::render() !!}
 

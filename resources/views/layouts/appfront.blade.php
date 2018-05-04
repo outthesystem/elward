@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<link rel="apple-touch-icon" sizes="76x76" href="{{asset('public/frontend/img/apple-icon.png')}}">
-	<link rel="icon" type="image/png" href="{{asset('public/frontend/img/favicon.png')}}">
+	<link rel="apple-touch-icon" sizes="76x76" href="{{secure_asset('public/frontend/img/apple-icon.png')}}">
+	<link rel="icon" type="image/png" href="{{secure_asset('public/frontend/img/favicon.png')}}">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta name="mobile-web-app-capable" content="yes">
 	<title>El Ward Oficial</title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-<link rel="manifest" href="{{asset('public/manifest.json')}}">
+<link rel="manifest" href="{{secure_asset('public/manifest.json')}}">
 <meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="{{asset('public/frontend/img/favicon148.png')}}">
+<meta name="msapplication-TileImage" content="{{secure_asset('public/frontend/img/favicon148.png')}}">
 <meta name="theme-color" content="#ffffff">
 	<!--     Fonts and icons     -->
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
@@ -20,9 +20,9 @@
 	<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
 
 	<!-- CSS Files -->
-    <link href="{{asset('public/frontend/css/bootstrap.min.css')}}" rel="stylesheet" />
-    <link href="{{asset('public/frontend/css/material-kit.css?v=1.2.1')}}" rel="stylesheet"/>
-		<script src="{{ asset('public/js/pace.min.js') }}"></script>
+    <link href="{{secure_asset('public/frontend/css/bootstrap.min.css')}}" rel="stylesheet" />
+    <link href="{{secure_asset('public/frontend/css/material-kit.css?v=1.2.1')}}" rel="stylesheet"/>
+		<script src="{{ secure_asset('public/js/pace.min.js') }}"></script>
 
 	<style media="screen">
 	.pace .pace-progress {
@@ -50,7 +50,7 @@
 										<span class="sr-only">Toggle navigation</span>
 										<i class="fas fa-angle-left"></i>
 									</button>
-									<a class="navbar-brand" href="https://www.facebook.com/El-Ward-1912841569026994"><img src="{{asset('public/img/logo.png')}}" alt="" class="img-responsive" style="max-width:130px; margin-top: -22px;"><div class="ripple-container"></div></a>
+									<a class="navbar-brand" href="https://www.facebook.com/El-Ward-1912841569026994"><img src="{{secure_asset('public/img/logo.png')}}" alt="" class="img-responsive" style="max-width:130px; margin-top: -22px;"><div class="ripple-container"></div></a>
 								</div>
 
 								<div class="collapse navbar-collapse" id="example-navbar-transparent">
@@ -83,7 +83,7 @@
 								</div>
 							</div>
 						</nav>
-    
+
 		@if ($notes->count() == 0)
 			@else
 				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="10000" style="margin-top:-50px;">
@@ -220,7 +220,7 @@
 					<div class="form-group label-floating">
 						<div class="fileinput fileinput-new text-center" data-provides="fileinput">
 						   <div class="fileinput-new thumbnail img-raised">
-							<img src="{{asset('public/frontend/img/image_placeholder.jpg')}}" alt="...">
+							<img src="{{secure_asset('public/frontend/img/image_placeholder.jpg')}}" alt="...">
 						   </div>
 						   <div class="fileinput-preview fileinput-exists thumbnail img-raised"></div>
 						   <div>
@@ -297,11 +297,11 @@
 									@yield('modals')
 </body>
 	<!--   Core JS Files   -->
-	<script src="{{asset('public/frontend/js/jquery.min.js')}}" type="text/javascript"></script>
+	<script src="{{secure_asset('public/frontend/js/jquery.min.js')}}" type="text/javascript"></script>
 	<script type="text/javascript">
 	if ('serviceWorker' in navigator) {
 	window.addEventListener('load', function() {
-		navigator.serviceWorker.register('{{asset('sw.js')}}').then(function(registration) {
+		navigator.serviceWorker.register('{{secure_asset('sw.js')}}').then(function(registration) {
 			// Registration was successful
 			console.log('ServiceWorker registration successful with scope: ', registration.scope);
 		}).catch(function(err) {
@@ -328,30 +328,30 @@ window.addEventListener('beforeinstallprompt', function(e) {
   });
 });
 	</script>
-	<script src="{{asset('public/frontend/js/bootstrap.min.js')}}" type="text/javascript"></script>
-	<script src="{{asset('public/frontend/js/material.min.js')}}"></script>
-<script src="{{ asset('public/js/share.js') }}"></script>
+	<script src="{{secure_asset('public/frontend/js/bootstrap.min.js')}}" type="text/javascript"></script>
+	<script src="{{secure_asset('public/frontend/js/material.min.js')}}"></script>
+<script src="{{ secure_asset('public/js/share.js') }}"></script>
 	<!--    Plugin for Date Time Picker and Full Calendar Plugin   -->
-	<script src="{{asset('public/frontend/js/moment.min.js')}}"></script>
-	<script src="{{asset('public/frontend/js/es-us.js')}}"></script>
+	<script src="{{secure_asset('public/frontend/js/moment.min.js')}}"></script>
+	<script src="{{secure_asset('public/frontend/js/es-us.js')}}"></script>
 
 	<!--	Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/   -->
-	<script src="{{asset('public/frontend/js/nouislider.min.js')}}" type="text/javascript"></script>
+	<script src="{{secure_asset('public/frontend/js/nouislider.min.js')}}" type="text/javascript"></script>
 
 	<!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker   -->
-	<script src="{{asset('public/frontend/js/bootstrap-datetimepicker.js')}}" type="text/javascript"></script>
+	<script src="{{secure_asset('public/frontend/js/bootstrap-datetimepicker.js')}}" type="text/javascript"></script>
 
 	<!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select   -->
-	<script src="{{asset('public/frontend/js/bootstrap-selectpicker.js')}}" type="text/javascript"></script>
+	<script src="{{secure_asset('public/frontend/js/bootstrap-selectpicker.js')}}" type="text/javascript"></script>
 
 	<!--	Plugin for Tags, full documentation here: http://xoxco.com/projects/code/tagsinput/   -->
-	<script src="{{asset('public/frontend/js/bootstrap-tagsinput.js')}}"></script>
+	<script src="{{secure_asset('public/frontend/js/bootstrap-tagsinput.js')}}"></script>
 
 	<!--	Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput   -->
-	<script src="{{asset('public/frontend/js/jasny-bootstrap.min.js')}}"></script>
+	<script src="{{secure_asset('public/frontend/js/jasny-bootstrap.min.js')}}"></script>
 
 	<!--    Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc    -->
-	<script src="{{asset('public/frontend/js/material-kit.js?v=1.2.1')}}" type="text/javascript"></script>
+	<script src="{{secure_asset('public/frontend/js/material-kit.js?v=1.2.1')}}" type="text/javascript"></script>
 
 	<script>
 $(document).on('click','#search', function(e) {
