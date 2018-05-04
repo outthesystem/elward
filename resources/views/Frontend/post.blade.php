@@ -60,7 +60,7 @@
 									<i class="fa fa-facebook-square"></i>
 								</a>
 								<a href="https://api.whatsapp.com/send?text={{ url('/shares/'.$post->id) }}" class="btn btn-twitter btn-round pull-right">
-									<i class="fab fa-whatsapp"></i>
+									<i class="fa fa-whatsapp"></i>
 								</a>
 							</div>
 						</div>
@@ -86,7 +86,7 @@
 							<div class="col-md-12">
 								<h2 class="title text-center">notas</h2>
 								<br />
-								<div class="row">
+								<div class="row display-flex">
 
 									@foreach ($posts as $p)
 										<div class="col-md-4">
