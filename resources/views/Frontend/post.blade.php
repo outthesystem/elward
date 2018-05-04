@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<link rel="apple-touch-icon" sizes="76x76" href="{{secure_secure_asset('public/frontend/img/apple-icon.png')}}">
+	<link rel="apple-touch-icon" sizes="76x76" href="{{secure_asset('public/frontend/img/apple-icon.png')}}">
 	<link rel="icon" type="image/png" href="{{secure_asset('public/frontend/img/favicon.png')}}">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
