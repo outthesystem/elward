@@ -4,7 +4,9 @@
 <meta property="og:description"        content="{{ strip_tags($post->description) }}" />
 <meta property="og:image"              content="{{$post->image}}" />
 <meta property="fb:app_id"              content="1925782371065760" />
+<meta property="og:image:width" content="250" />
+<meta property="og:image:height" content="500" />
 
 <script type="text/javascript">
-  window.location = "http://elmatecultural.com";
+  window.location = "http://elwardoficial.com";
 </script>
