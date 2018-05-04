@@ -77,7 +77,7 @@
 
   <div class="section">
 		<div class="container">
-			<div class="row">
+			<div class="row display-flex">
 
 
 				@if ($posts->count() == 0)
@@ -86,7 +86,7 @@
 							<div class="col-md-12">
 								<h2 class="title text-center">notas</h2>
 								<br />
-								<div class="row display-flex">
+								<div class="">
 
 									@foreach ($posts as $p)
 										<div class="col-md-4">
