@@ -105,9 +105,6 @@ function clickME1() {
         @if ($p->sticky == 1) @else
         <div class="footer">
           <div class="author">
-    	    	      <b><i class="material-icons">attach_money</i> {{$p->entrytype}} -
-            {{ $p->price}}
-                  </span></b>
             <br>
             <b class=""><i class="material-icons">place</i> {{$p->place}}</b>
 <br>
