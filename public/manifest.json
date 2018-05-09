@@ -1,11 +1,11 @@
 {
-  "short_name": "el ward oficial",
-  "name": "noticias de ultima hora de league of legends",
+  "short_name": "El Ward Oficial",
+  "name": "El Ward: Alumbrando el competitivo del LoL",
   "display": "standalone",
   "scope": "http://elwardoficial.com/",
   "start_url": "/",
   "orientation": "portrait",
-  "theme_color": "#76F498",
+  "theme_color": "#4CAF50",
   "background_color": "#ffffff",
   "icons": [
     {
