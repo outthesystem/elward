@@ -1,5 +1,48 @@
 @extends('layouts.appfront') @section('contentapp')
 
+  <div class="row display-flex">
+
+
+    @if ($notes->count() == 0)
+
+        @else
+          <div class="col-md-12">
+            <h2 class="title text-center">notas</h2>
+            <br />
+            <div class="">
+
+              @foreach ($notes as $p)
+                <div class="col-md-6">
+                  <div class="card card-blog">
+                    <div class="card-image">
+                      <a href="#pablo">
+                        @if ($p->image)
+                          <img class="img" style="height:330px;" src="{{$p->image}}">
+                          @else
+                            <img class="img" style="height:330px;" src="{{secure_asset('public/frontend/img/image_placeholder.jpg')}}">
+                        @endif
+                      </a>
+                    </div>
+
+                    <div class="card-content">
+                      <h6 class="category text-info">{{$p->category->name}}</h6>
+                      <p class="card-description">
+                      {{$p->content}}
+                      </p>
+                      <p>
+                        <a href="{{url('post/'.$p->id)}}">Ver mas...</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              @endforeach
+            </div>
+
+          </div>
+    @endif
+
+  </div>
+
 <div class="row">
   <div class="col-md-offset-2 col-sm-8" style="margin-top:0px;">
     <center>

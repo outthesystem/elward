@@ -131,7 +131,7 @@
 
 					<a href="https://www.facebook.com/El-Ward-1912841569026994" target="_blank" class="btn btn-just-icon btn-facebook btn-simple"
 					style="margin-bottom:-15px;">
-						<i class="fa fa-facebook-square"></i>
+						<i class="fab fa-facebook"></i>
 					</a>
 					<br>
 
