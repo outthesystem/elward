@@ -4,16 +4,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="{{ asset('js/jquery.min.js') }}"></script>
-    <script src="{{ asset('js/tether.min.js') }}"></script>
-    <script src="{{ asset('js/pace.min.js') }}"></script>
-      <script src="{{ asset('js/popper.min.js') }}"></script>
-      <script src="{{ asset('js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('js/app.js') }}"></script>
-    <script src="{{ asset('js/angular.min.js') }}"></script>
-    <script src="{{ asset('js/searchcontratos.js') }}"></script>
+    <script src="{{ secure_asset('public/js/jquery.min.js') }}"></script>
+    <script src="{{ secure_asset('public/js/tether.min.js') }}"></script>
+    <script src="{{ secure_asset('public/js/pace.min.js') }}"></script>
+      <script src="{{ secure_asset('public/js/popper.min.js') }}"></script>
+      <script src="{{ secure_asset('public/js/bootstrap.min.js') }}"></script>
+    <script src="{{ secure_asset('public/js/app.js') }}"></script>
+    <script src="{{ secure_asset('public/js/angular.min.js') }}"></script>
+    <script src="{{ secure_asset('public/js/searchcontratos.js') }}"></script>
 
-    <script src="{{ asset('js/contratos_pasajeros.js') }}"></script>
+    <script src="{{ secure_asset('public/js/contratos_pasajeros.js') }}"></script>
     <script src="//cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js"></script>
 
     <!-- CSRF Token -->
@@ -22,16 +22,16 @@
     <title>El Ward Oficial</title>
 
     <!-- Styles -->
-    <link href="{{ asset('css/font-awesome.min.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('public/css/font-awesome.min.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
 
 
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-    <script src="{{asset('tinymce/js/tinymce/jquery.tinymce.min.js')}}"></script>
-    <script src="{{asset('tinymce/js/tinymce/tinymce.min.js')}}"></script>
+    <link href="{{ secure_asset('public/css/style.css') }}" rel="stylesheet">
+    <script src="{{secure_asset('public/tinymce/js/tinymce/jquery.tinymce.min.js')}}"></script>
+    <script src="{{secure_asset('public/tinymce/js/tinymce/tinymce.min.js')}}"></script>
 </head>
 <style media="screen">
 .loader {
