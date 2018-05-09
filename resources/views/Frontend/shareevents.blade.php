@@ -4,8 +4,8 @@
 <meta property="og:description"        content="{{ strip_tags($post->description) }}" />
 <meta property="og:image"              content="{{$post->image}}" />
 <meta property="fb:app_id"              content="1925782371065760" />
-<meta property="og:image:width" content="500" />
-<meta property="og:image:height" content="500" />
+<meta property="og:image:width" content="400" />
+<meta property="og:image:height" content="400" />
 
 <script type="text/javascript">
   window.location = "https://elwardoficial.com/post/{{$post->id}}";
