@@ -62,11 +62,6 @@
 			                                    Eventos
 			                                </a>
 			                            </li>
-																	<li>
-																		<a href="{{url('/')}}">
-																				<i class="far fa-edit"></i>
-																				Entradas
-																		</a></li>
 
 																		    @guest
 																		    <li>

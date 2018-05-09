@@ -16,7 +16,7 @@ class FrontendController extends Controller
   {
     $postscalendar = Post::with('category')->Datelimit()->Popular()->orderBy('date_init', 'asc')->get();
     $posts = Post::with('category')->Datelimit()->Popular()->where('date_init', 'like', '%'.$request->search.'%')->orderBy('date_init', 'asc')->get();
-    $notes = Post::with('category')->where('note', '=', 1)->orderBy('date_init', 'asc')->paginate(6);
+    $notes = Post::with('category')->where('note', '=', 1)->orderBy('date_init', 'asc')->paginate(10);
     $categories = Category::all();
     if ($request->search) {
       $search = TRUE;
