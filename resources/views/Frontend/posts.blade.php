@@ -7,7 +7,7 @@
 
         @else
           <div class="col-md-12">
-            <h2 class="title text-center">notas</h2>
+
             <br />
             <div class="">
 
@@ -32,6 +32,11 @@
                       <p>
                         <a href="{{url('post/'.$p->id)}}">Ver mas...</a>
                       </p>
+                      <div class="footer">
+                        <div class="author">
+                            <b class=""><i class="material-icons">date_range</i> {{date('d/m/y', strtotime($p->created_at))}}
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -42,6 +47,8 @@
     @endif
 
   </div>
+
+  <br>
 
 <div class="row">
   <div class="col-md-offset-2 col-sm-8" style="margin-top:0px;">
