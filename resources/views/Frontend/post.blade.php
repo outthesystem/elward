@@ -58,10 +58,10 @@
 							</div>
 							<div class="col-md-6">
 								<a href="{{ url('/share/'.$post->id) }}" class="btn btn-facebook btn-round pull-right">
-									<i class="fa fa-facebook-square"></i>
+									<i class="fab fa-facebook"></i>
 								</a>
 								<a href="https://api.whatsapp.com/send?text={{ url('/shares/'.$post->id) }}" class="btn btn-twitter btn-round pull-right">
-									<i class="fa fa-whatsapp"></i>
+									<i class="fab fa-whatsapp"></i>
 								</a>
 							</div>
 						</div>
