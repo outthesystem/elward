@@ -90,7 +90,7 @@
 								<div class="">
 
 									@foreach ($posts as $p)
-										<div class="col-md-4">
+										<div class="col-md-6">
 											<div class="card card-blog">
 												<div class="card-image">
 													<a href="#pablo">
