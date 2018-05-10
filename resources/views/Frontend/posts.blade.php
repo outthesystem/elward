@@ -6,13 +6,11 @@
     @if ($notes->count() == 0)
 
         @else
-          <div class="col-md-12">
 
             <br />
-            <div class="">
 
               @foreach ($notes as $p)
-                <div class="col-md-6">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 " >
                   <div class="card card-blog">
                     <div class="card-image">
                       <a href="#pablo">
@@ -41,9 +39,7 @@
                   </div>
                 </div>
               @endforeach
-            </div>
 
-          </div>
     @endif
 
   </div>
